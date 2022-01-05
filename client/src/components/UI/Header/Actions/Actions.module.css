@@ -1,0 +1,5 @@
+.action {
+    display: flex;
+    width: 33.3333%;
+    justify-content: flex-end;
+}

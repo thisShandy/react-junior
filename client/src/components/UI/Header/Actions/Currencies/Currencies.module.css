@@ -1,0 +1,38 @@
+.current {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #1D1F22;
+    border-radius: 5px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18pt;
+    transition: background-color 0.10s;
+}
+
+.current:hover {
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 0.25);
+}
+
+.currentImage {
+    width: 10px;
+    margin-left: 5px;
+}
+
+.currencyList {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 115px;
+    height: 170px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 36px 0 rgba(168, 172, 176, 0.19);
+    -moz-box-shadow: 0 4px 36px 0 rgba(168, 172, 176, 0.19);
+    box-shadow: 0 4px 36px 0 rgba(168, 172, 176, 0.19);
+}

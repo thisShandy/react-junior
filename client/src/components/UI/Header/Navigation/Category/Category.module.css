@@ -1,0 +1,18 @@
+.categoryButton {
+    padding: 0  15px;
+    height: 100%;
+    color: #1D1F22;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    transition: color 0.1s;
+}
+
+.categoryButton:hover {
+    cursor: pointer;
+    color: #5ECE7B;
+}

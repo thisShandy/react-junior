@@ -1,0 +1,25 @@
+.currencyItem {
+    width: 115px;
+    list-style-type: none;
+    margin: 6px 0;
+}
+
+.currencyName {
+    width: 80px;
+    height: 35px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.10s;
+}
+
+.currencyName:hover {
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 0.25);
+}
