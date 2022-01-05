@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6eec2fe-d50c-4e84-b762-58d97f8f86b1" name="Changes" comment="" />
+    <list default="true" id="f6eec2fe-d50c-4e84-b762-58d97f8f86b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/CategoriesScreen/CategoriesScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/CategoriesScreen/CategoriesScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Actions.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Cart/Cart.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Cart/Number/Number.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Logo/Logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Logo/Logo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Category/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Category/Category.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="23EcnlH6OoLUoBhbIydeTHOcALV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,10 +62,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,10 +84,24 @@
       <updated>1641302856450</updated>
       <workItem from="1641302860368" duration="298000" />
       <workItem from="1641311931768" duration="19000" />
+      <workItem from="1641311955245" duration="282000" />
+      <workItem from="1641312278845" duration="74000" />
+      <workItem from="1641312370476" duration="17464000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
