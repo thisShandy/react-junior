@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Navigation.module.css";
 import Category from "./Category/Category";
+import menu from "./img/menu2.svg";
 
 class Navigation extends React.Component {
 
@@ -23,7 +24,8 @@ class Navigation extends React.Component {
           name: "kids",
           active: false,
         },
-      ]
+      ],
+      show: false,
     }
   }
 
@@ -47,6 +49,13 @@ class Navigation extends React.Component {
     })
   }
 
+  setShow = () => {
+    this.setState({
+      ...this.state,
+      show: !this.state.show,
+    });
+  };
+
   render () {
     return (
       <>
@@ -57,6 +66,22 @@ class Navigation extends React.Component {
             })
           }
         </div>
+        <but className={classes.menu}>
+          <button onClick={() => {this.setShow()}} className={classes.burger}>
+            <img src={menu} className={classes.burgerImg} />
+          </button>
+          <div style={{display: this.state.show ? "flex" : "none"}} className={classes.menuItems}>
+            {
+              this.state.categories.map(el => {
+                return (
+                  <div className={classes.menuItem}>
+                    <Category key={el.id} element={el} changeCategory={this.changeCategory} />
+                  </div>
+                );
+              })
+            }
+          </div>
+        </but>
       </>
     );
   };

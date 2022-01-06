@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6eec2fe-d50c-4e84-b762-58d97f8f86b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/CategoriesScreen/CategoriesScreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/CategoriesScreen/CategoriesScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Actions.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Cart/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Cart/Cart.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Cart/Number/Number.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Logo/Logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Logo/Logo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Category/Category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Category/Category.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/categoryReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,7 +72,7 @@
       <workItem from="1641311931768" duration="19000" />
       <workItem from="1641311955245" duration="282000" />
       <workItem from="1641312278845" duration="74000" />
-      <workItem from="1641312370476" duration="17464000" />
+      <workItem from="1641312370476" duration="22850000" />
     </task>
     <servers />
   </component>
