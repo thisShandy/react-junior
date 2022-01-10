@@ -30,7 +30,7 @@
     justify-content: center;
     position: absolute;
     width: 115px;
-    height: 170px;
+    padding: 15px 0;
     background-color: #fff;
     -webkit-box-shadow: 0 4px 36px 0 rgba(168, 172, 176, 0.19);
     -moz-box-shadow: 0 4px 36px 0 rgba(168, 172, 176, 0.19);

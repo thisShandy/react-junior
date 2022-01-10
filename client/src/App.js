@@ -10,11 +10,16 @@ import "./reset.min.css";
 import CategoryScreen from "./components/CategoriesScreen/CategoriesScreen"
 
 class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<CategoryScreen />} />
+          <Route path="/" element={<CategoryScreen/>}/>
         </Routes>
       </BrowserRouter>
     );

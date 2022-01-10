@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6eec2fe-d50c-4e84-b762-58d97f8f86b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/redux/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/categoryReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux/reducers/cartReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Currencies.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Actions/Currencies/Item/Item.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UI/Header/Navigation/Navigation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/categoryReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/categoryReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/reducers/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -72,7 +79,8 @@
       <workItem from="1641311931768" duration="19000" />
       <workItem from="1641311955245" duration="282000" />
       <workItem from="1641312278845" duration="74000" />
-      <workItem from="1641312370476" duration="22850000" />
+      <workItem from="1641312370476" duration="39182000" />
+      <workItem from="1641581980013" duration="677000" />
     </task>
     <servers />
   </component>
@@ -89,5 +97,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

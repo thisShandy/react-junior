@@ -12,10 +12,13 @@ class Item extends Component {
     return (
       <li className={classes.currencyItem}>
         <button onClick={() => {
-          this.props.changeCurrent(this.index);
+          this.props.changeCurrent(this.props.element.id, {
+            symbol: this.props.element.symbol,
+            label: this.props.element.label
+          });
         }} className={classes.currencyName}>
           {
-            this.props.element.currency + " " + this.props.element.name
+            this.props.element.symbol + " " + this.props.element.label
           }
         </button>
       </li>
